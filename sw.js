@@ -11,6 +11,7 @@ self.addEventListener('install' , (event)=>{
             'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css',
             'https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css',
             'https://akhil24-abd.github.io/burger-website/images/about-img-1.png',
+            'https://akhil24-abd.github.io/burger-website/images/about-img.png',
             'https://akhil24-abd.github.io/burger-website/images/background.jpg',
             'https://akhil24-abd.github.io/burger-website/images/blog-1.jpg',
             'https://akhil24-abd.github.io/burger-website/images/blog-2.jpg',
