@@ -1,0 +1,18 @@
+{
+    "name": "Burgerking",
+    "short_name": "Burger King",
+    "description": "Progressive Web App feature added in our application",
+    "icons": [
+        {
+            "src":"./images/about-img-1.png",
+            "sizes":"96x96",
+            "type":"image/png"
+        }
+    ],
+    "id":"",
+    "start_url": "",
+    "display": "fullscreen",
+    "theme_color": "#00FF00",
+    "background_color": "#FFFFFF",
+    "orientation":"portrait"
+  }
