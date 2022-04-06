@@ -23,8 +23,7 @@ self.addEventListener('install' , (event)=>{
             'https://akhil24-abd.github.io/burger-website/images/producr-2.png',
             'https://akhil24-abd.github.io/burger-website/images/product-4.png',
             'https://akhil24-abd.github.io/burger-website/images/product-5.png',
-            'https://akhil24-abd.github.io/burger-website/images/product-6.png'
-
+            'https://akhil24-abd.github.io/burger-website/images/product-6.png',
         ]).catch((error)=>{
             console.log(error)
         })
