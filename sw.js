@@ -6,6 +6,7 @@ self.addEventListener('install' , (event)=>{
         Cache.addAll([
             'https://akhil24-abd.github.io/burger-website/index.html',
             'https://akhil24-abd.github.io/burger-website/css/style.scss',
+            'https://akhil24-abd.github.io/burger-website/css/style.css',
             'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css',
             'https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css',
             'https://akhil24-abd.github.io/burger-website/images/about-img-1.png',
