@@ -1,38 +1,28 @@
 self.addEventListener('install' , (event)=>{
-    console.log("sw is installed")
+    console.log("service worker is installed")
     event.waitUntil(
     caches.open("static")
     .then((Cache)=>{
         Cache.addAll([
-            'https://riyaz2014.github.io/foodwebsite/',
-            'https://riyaz2014.github.io/foodwebsite/js/script.js',
-            'https://riyaz2014.github.io/foodwebsite/css/style.css',
-            'https://riyaz2014.github.io/foodwebsite/images/about-icon-1.png',
-            'https://riyaz2014.github.io/foodwebsite/images/about-icon-2.png',
-            'https://riyaz2014.github.io/foodwebsite/images/about-icon-3.png',
-            'https://riyaz2014.github.io/foodwebsite/images/about-icon-4.png',
-            'https://riyaz2014.github.io/foodwebsite/images/about-img-1.png',
-            'https://riyaz2014.github.io/foodwebsite/images/about-img.png',
-            'https://riyaz2014.github.io/foodwebsite/images/blog-img-1.jpg',
-            'https://riyaz2014.github.io/foodwebsite/images/blog-img-2.jpg',
-            'https://riyaz2014.github.io/foodwebsite/images/blog-img-3.jpg',
-            'https://riyaz2014.github.io/foodwebsite/images/blog-img-4.jpg',
-            'https://riyaz2014.github.io/foodwebsite/images/blog-img-5.jpg',
-            'https://riyaz2014.github.io/foodwebsite/images/blog-img-6.jpg',
-            'https://riyaz2014.github.io/foodwebsite/images/food-galler-img-1.jpg',
-            'https://riyaz2014.github.io/foodwebsite/images/food-galler-img-2.jpg',
-            'https://riyaz2014.github.io/foodwebsite/images/food-galler-img-3.jpg',
-            'https://riyaz2014.github.io/foodwebsite/images/food-galler-img-4.jpg',
-            'https://riyaz2014.github.io/foodwebsite/images/food-galler-img-5.jpg',
-            'https://riyaz2014.github.io/foodwebsite/images/food-galler-img-6.jpg',
-            'https://riyaz2014.github.io/foodwebsite/images/food-img-1.png',
-            'https://riyaz2014.github.io/foodwebsite/images/food-img-2.png',
-            'https://riyaz2014.github.io/foodwebsite/images/food-img-3.png',
-            'https://riyaz2014.github.io/foodwebsite/images/food-img-4.png',
-            'https://riyaz2014.github.io/foodwebsite/images/food-img-5.png',
-            'https://riyaz2014.github.io/foodwebsite/images/home-slide-1.jpg',
-            'https://riyaz2014.github.io/foodwebsite/images/home-slide-2.jpg',
-            'https://riyaz2014.github.io/foodwebsite/images/home-slide-3.jpg'
+            'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css',
+            'https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css',
+            'https://akhil24-abd.github.io/burger-website/images/about-img-1.png',
+            'https://akhil24-abd.github.io/burger-website/images/background.jpg',
+            'https://akhil24-abd.github.io/burger-website/images/blog-1.jpg',
+            'https://akhil24-abd.github.io/burger-website/images/blog-2.jpg',
+            'https://akhil24-abd.github.io/burger-website/images/blog-3.jpg',
+            'https://akhil24-abd.github.io/burger-website/images/burger-baner.png',
+            'https://akhil24-abd.github.io/burger-website/images/home-bg.png',
+            'https://akhil24-abd.github.io/burger-website/images/logo.png',
+            'https://akhil24-abd.github.io/burger-website/images/pic-1.png',
+            'https://akhil24-abd.github.io/burger-website/images/pic-2.png',
+            'https://akhil24-abd.github.io/burger-website/images/product-1.png',
+            'https://akhil24-abd.github.io/burger-website/images/producr-2.png',
+            'https://akhil24-abd.github.io/burger-website/images/product-4.png',
+            'https://akhil24-abd.github.io/burger-website/images/product-5.png',
+            'https://akhil24-abd.github.io/burger-website/images/product-6.png',
+            'https://akhil24-abd.github.io/burger-website/images/title-img.png',
+
         ]).catch((error)=>{
             console.log(error)
         })
