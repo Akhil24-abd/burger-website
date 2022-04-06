@@ -21,6 +21,7 @@ self.addEventListener('install' , (event)=>{
             'https://akhil24-abd.github.io/burger-website/images/logo.png',
             'https://akhil24-abd.github.io/burger-website/images/pic-1.png',
             'https://akhil24-abd.github.io/burger-website/images/pic-2.png',
+            'https://akhil24-abd.github.io/burger-website/images/pic-3.png',
             'https://akhil24-abd.github.io/burger-website/images/product-1.png',
             'https://akhil24-abd.github.io/burger-website/images/product-2.png',
             'https://akhil24-abd.github.io/burger-website/images/product-3.png',
