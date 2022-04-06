@@ -4,6 +4,7 @@ self.addEventListener('install' , (event)=>{
     caches.open("static")
     .then((Cache)=>{
         Cache.addAll([
+           'https://akhil24-abd.github.io/burger-website/images/',
             'https://akhil24-abd.github.io/burger-website/images',
             'https://akhil24-abd.github.io/burger-website/index.html',
             'https://akhil24-abd.github.io/burger-website/css/style.scss',
