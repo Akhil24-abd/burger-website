@@ -1,14 +1,6 @@
 let searchBtn = document.querySelector('#search-btn');
 let searchForm = document.querySelector('.header .search-form');
 
-
-if("serviceWorker" in navigator){
-   navigator.serviceWorker.register("https://akhil24-abd.github.io/burger-website/sw.js")
-   .then(()=>{
-      console.log("sw registered")
-   })
-}
-
 searchBtn.onclick = () =>{
    searchBtn.classList.toggle('fa-times');
    searchForm.classList.toggle('active');

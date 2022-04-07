@@ -438,6 +438,14 @@
 
 <!-- custom js file link      -->
 <script src="js/script.js"></script>
+<script type="text/javascript">
+if("serviceWorker" in navigator){
+   navigator.serviceWorker.register("https://akhil24-abd.github.io/burger-website/sw.js")
+   .then(()=>{
+      console.log("sw registered")
+   })
+}
+</script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 
